@@ -226,6 +226,14 @@
       text-decoration: underline;
       cursor: pointer;
     }
+    .footer {
+      margin-top: 22px;
+      text-align: center;
+      font-size: 12px;
+      line-height: 1.7;
+      color: var(--muted);
+    }
+    .footer b { color: var(--text); font-weight: 600; }
     @media (max-width: 480px) {
       th, td { padding-left: 6px; padding-right: 6px; }
       th:first-child, td:first-child { padding-left: 10px; }
@@ -268,6 +276,10 @@
     <button class="save" id="save" disabled>Сохранить</button>
     <div class="status" id="status"></div>
     <button class="link" id="forget">Сменить пароль</button>
+    <div class="footer">
+      <b>Team Promoters Pobedy Gomel</b><br>
+      Powered by Claude
+    </div>
   </div>
 
   <script>
